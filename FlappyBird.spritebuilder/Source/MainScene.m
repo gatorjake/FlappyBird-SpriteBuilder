@@ -43,7 +43,7 @@
     physicsNode.collisionDelegate = self;
     
     _obstacles = [NSMutableArray array];
-    points = 10000;
+    points = 9999;
     _scoreLabel.visible = true;
     
     [super initialize];
